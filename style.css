@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-image: url(pictures/фон.jpg);
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+header {
+    background: rgba(255, 255, 255, 0.3);
+    padding: 20px 0px;
+    text-align: center;
+    width: 100%;
+    border: 0px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #d23669;
+}
+
+section {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.cake {
+    border: 1px solid #eee;
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 8px;
+}
+
+.price {
+    color: #d23669;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.cake > div > h3{
+    text-align: center;
+    padding-inline: 1vw;
+    width: 20vw;
+}
+
+.cake{
+    display: flex;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.3);
+    margin: 1.5vw 1vw;
+}
+
+p{
+    text-align: center;
+}
+
+.cake > img{
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+}
+
+.cake > div > p{
+    width: 20vw;
+    padding-inline: 1vw;
+}
+
+h2{
+    text-align: center;
+}
+
+#about{
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 1vw;
+    border: 0.1vw solid white;
+    margin-bottom: 3vw;
+    max-width: 800px;
+    scroll-margin-top: 100px;
+}
+
+#cakes{
+    margin-top: -2vw;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#contacts, footer{
+    color: white;
+}
+
+.cake > div{
+    display: grid;
+    grid-template-rows: 25% 60% 15%;
+}
+
+h3{
+    text-align: center;
+}
+
+#cakes, #contacts{
+    scroll-margin-top: 50px;
+}
+
+@media (max-width: 600px){
+    h3{
+        font-size: 0.9rem;
+    }
+
+    .cake > div{
+        grid-template-rows: 28% 42% 30%;
+    }
+
+    .cake > div > :nth-child(2){
+        font-size: 0.6rem;
+    }
+
+    .cake > div > :nth-child(1){
+        font-size: 0.8rem;
+    }
+}
