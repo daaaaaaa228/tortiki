@@ -120,10 +120,10 @@ h3{
     }
 
     .cake > div{
-        grid-template-rows: 28% 42% 30%;
+        grid-template-rows: 30% 55% 15%;
     }
 
-    .cake > div > :nth-child(2){
+    .cake > div > p{
         font-size: 0.6rem;
     }
 
