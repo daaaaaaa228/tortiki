@@ -75,7 +75,6 @@ p{
 }
 
 .cake > div > p{
-    width: 20vw;
     padding-inline: 1vw;
 }
 
@@ -106,6 +105,7 @@ h2{
 .cake > div{
     display: grid;
     grid-template-rows: 25% 60% 15%;
+    width: 50%;
 }
 
 h3{
