@@ -53,7 +53,6 @@ footer {
 .cake > div > h3{
     text-align: center;
     padding-inline: 1vw;
-    width: 20vw;
 }
 
 .cake{
@@ -70,10 +69,10 @@ p{
 .cake > img{
     border-radius: 1vw;
     border: 0.2vw solid black;
+    width: 50%;
 }
 
 .cake > div > p{
-    width: 20vw;
     padding-inline: 1vw;
 }
 
@@ -104,6 +103,7 @@ h2{
 .cake > div{
     display: grid;
     grid-template-rows: 25% 60% 15%;
+    width: 100%;
 }
 
 h3{
@@ -114,20 +114,49 @@ h3{
     scroll-margin-top: 50px;
 }
 
+.cake{
+    width: 40vw;
+}
+
+#footer{
+    color: white;
+}
+
+h2{
+    color: white;
+}
+
+#primer > img{
+    width:30vw;
+    border-radius: 2vw;
+    margin: 1vw 1.3vw;
+    border: 0.2vw solid black;
+}
+
+#primer{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
 @media (max-width: 600px){
     h3{
         font-size: 0.9rem;
     }
 
     .cake > div{
-        grid-template-rows: 28% 42% 30%;
+        grid-template-rows: 28% 45% 27%;
     }
 
-    .cake > div > :nth-child(2){
+    .cake > div:nth-child(2){
         font-size: 0.6rem;
     }
 
-    .cake > div > :nth-child(1){
+    .cake > div:nth-child(1){
         font-size: 0.8rem;
+    }
+
+    .cake{
+        width: 90vw;
     }
 }
